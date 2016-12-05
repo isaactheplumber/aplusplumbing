@@ -96,4 +96,17 @@ a:link, a:hover, a:visited, a:active{color:#000;}
         font-size: 1em;
     }
 	.name-container{width:265px;}
+	.mainMobile{margin-bottom:50px;}
+	.bkimage{
+	height:150px;
+}
+	.custom-bullet li {
+    display: block;
+}
+.custom-bullet li:before
+{
+    
+    margin-left: -21px;
+   
+}
 }
