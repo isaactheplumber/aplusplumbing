@@ -6,7 +6,7 @@
 body{background:#f1edc1;color:#333440;}
 
 h1{color:#ffce2f;font-size:4em;font-family: 'Merriweather Sans', sans-serif;text-shadow: 0 0 15px #000;margin-top:70px;}
-.name-container{width:360px;margin:auto;  }
+
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Ubuntu', san-serif;
 }
@@ -23,7 +23,9 @@ a:link, a:hover, a:visited, a:active{color:#000;}
 	animation-duration:.5s;
 	animation-delay:.5s;
 	}
-
+.logo{width: 500px;
+    height: auto;
+    margin:70px auto 0;display: block;}
 .container p, .container ul{animation-duration:.5s;animation-delay:3s;}
 
 .footer{
@@ -90,15 +92,15 @@ a:link, a:hover, a:visited, a:active{color:#000;}
     content: "\e021";
    
 }
-
+@media (max-width: 768px) {.logo{width:350px;margin:50px auto 0;}.bkimage{height:150px;}}
 @media only screen and (max-width: 500px) {
     body {
         font-size: 1em;
     }
-	.name-container{width:265px;}
 	.mainMobile{margin-bottom:50px;}
 	.bkimage{height:100px;
 }
+	.logo{width:300px;margin:30px auto 0;}
 	.custom-bullet li {display: block;}
 	.custom-bullet li:before
 		{margin-left: -21px;
