@@ -101,6 +101,7 @@ a:link, a:hover, a:visited, a:active{color:#000;}
 }
 	.custom-bullet li {display: block;}
 	.custom-bullet li:before
-		{margin-left: -21px;}
+		{margin-left: -21px;
+		 margin-top: 1px;}
 	h1{margin-top:35px;}
 }
