@@ -73,7 +73,12 @@ a:link, a:hover, a:visited, a:active{color:#000;}
     color: #000;
 	margin-right: 5px;
 }
-
+.custom-bullet li.user:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e008";
+   
+}
 .custom-bullet li.phone:before
 {
     /*Using a Bootstrap glyphicon as the bullet point*/
